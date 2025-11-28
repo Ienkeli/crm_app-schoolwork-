@@ -140,5 +140,11 @@ python main.py
   weight	float	вес
   
   created_at	date	дата создания
+
+# Работа баз данных между собой, а также алгоритм работы программы
+<img width="790" height="450" alt="diagram (1)" src="https://github.com/user-attachments/assets/99da99d3-1b5b-4eee-8d33-1df44b9c6cde" />
+
+<img width="440" height="165" alt="diagram (2)" src="https://github.com/user-attachments/assets/00937652-56f4-45b4-be06-68d74534fc24" />
+
 # Запуск приложения
   python main.py
