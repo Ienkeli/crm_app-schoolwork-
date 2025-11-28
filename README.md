@@ -41,24 +41,43 @@ email
 
 # Структура проекта
 project/
+
 │
+
 ├── db/
+
 │   ├── __init__.py
+
 │   ├── db.py                # функция connection()
+
 │
+
 ├── gui/
+
 │   ├── __init__.py
+
 │   ├── login_window.py      # окно авторизации
+
 │   ├── database_window.py   # главное окно CRM (клиенты/заказы)
+
 │   ├── add_client_dialog.py # диалог добавления клиента
+
 │   ├── add_order_dialog.py  # диалог добавления заказа
+
 │
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   ├── normalize.py         # функции normalize_phone / format_phone_for_db
+
 │
+
 ├── main.py                  # точка входа
+
 ├── README.md
+
 └── requirements.txt
 
 # Установка и запуск
