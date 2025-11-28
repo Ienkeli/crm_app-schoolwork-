@@ -5,6 +5,8 @@
 
 # Возможности
 # Работа с клиентами
+<img width="373" height="371" alt="image" src="https://github.com/user-attachments/assets/3861dbf6-a9cc-4a90-9107-61480a15226b" />
+
 добавление новых клиентов (ФИО, телефон, email, дата, примечание);
 хранение телефонов в нормализованном виде;
 поиск по:
@@ -17,6 +19,7 @@ email
 просмотр заказов клиента по двойному нажатию.
 
 # Работа с заказами
+<img width="345" height="343" alt="image" src="https://github.com/user-attachments/assets/aa04f583-e441-4bab-9de3-79e17748fd36" />
 
 добавление нового заказа (клиент, описание, вес, дата);
 просмотр всех заказов;
@@ -24,19 +27,27 @@ email
 автоматическое обновление таблицы после изменений.
 
 # Авторизация пользователей
+<img width="356" height="217" alt="image" src="https://github.com/user-attachments/assets/b5d3fdcf-9f95-44ae-b35d-70e21b06b00e" />
 
 Авторизация происходит через таблицу клиентов:
+
 логин — ID клиента
+
 пароль — телефон (внутренний формат)
 
 После успешного входа показывается основное окно CRM.
 
 # Интерфейс
+<img width="1094" height="702" alt="image" src="https://github.com/user-attachments/assets/5511c368-aeac-40bf-b63f-894499756265" />
 
 современный тёмный дизайн;
+
 вкладки: Клиенты / Заказы;
+
 удобные таблицы;
+
 кнопки действий расположены сверху;
+
 диалоговые окна для добавления данных.
 
 # Структура проекта
@@ -100,6 +111,8 @@ python main.py
 
 # Структура таблиц
 # Таблица clients
+<img width="1007" height="48" alt="image" src="https://github.com/user-attachments/assets/91d415ad-e6d9-4d86-99af-6844b1f23cbe" />
+
 колонка	тип	описание
 
   id	SERIAL PK	ID клиента
@@ -114,8 +127,10 @@ python main.py
   
   note	text	примечание
 # Таблица zakazi
+<img width="660" height="51" alt="image" src="https://github.com/user-attachments/assets/e6c5e1f0-e184-4e90-83eb-900b19c4eb0c" />
+
 колонка	тип	описание
-  
+
   id	SERIAL PK	ID заказа
   
   client_id	int FK	ID клиента
