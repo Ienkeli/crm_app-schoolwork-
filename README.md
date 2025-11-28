@@ -101,18 +101,29 @@ python main.py
 # Структура таблиц
 # Таблица clients
 колонка	тип	описание
+
   id	SERIAL PK	ID клиента
+  
   full_name	varchar	ФИО
+  
   phone	varchar	телефон (нормализованный)
+  
   mail	varchar	email
+  
   request_date	date	дата обращения
+  
   note	text	примечание
 # Таблица zakazi
 колонка	тип	описание
+  
   id	SERIAL PK	ID заказа
+  
   client_id	int FK	ID клиента
+  
   description	text	описание заказа
+  
   weight	float	вес
+  
   created_at	date	дата создания
 # Запуск приложения
   python main.py
