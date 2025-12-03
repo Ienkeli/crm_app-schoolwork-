@@ -5,7 +5,6 @@
 
 # Возможности
 # Работа с клиентами
-<img width="373" height="371" alt="image" src="https://github.com/user-attachments/assets/3861dbf6-a9cc-4a90-9107-61480a15226b" />
 
 добавление новых клиентов (ФИО, телефон, email, дата, примечание);
 хранение телефонов в нормализованном виде;
@@ -23,8 +22,11 @@ email
 
 просмотр заказов клиента по двойному нажатию.
 
+# Алгоритм работы программы
+<img width="1060" height="960" alt="diagram (3)" src="https://github.com/user-attachments/assets/f0c8be36-d137-4ba1-b676-37f9aad3834b" />
+
+
 # Работа с заказами
-<img width="345" height="343" alt="image" src="https://github.com/user-attachments/assets/aa04f583-e441-4bab-9de3-79e17748fd36" />
 
 добавление нового заказа (клиент, описание, вес, дата);
 
