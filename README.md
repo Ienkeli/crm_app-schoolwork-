@@ -49,7 +49,8 @@ email
 После успешного входа показывается основное окно CRM.
 
 # Интерфейс
-<img width="1094" height="702" alt="image" src="https://github.com/user-attachments/assets/5511c368-aeac-40bf-b63f-894499756265" />
+<img width="1098" height="698" alt="image" src="https://github.com/user-attachments/assets/7b5c3291-80ae-4a4c-8975-35c1df0421ae" />
+
 
 современный тёмный дизайн;
 
