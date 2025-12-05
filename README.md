@@ -9,6 +9,7 @@
 добавление новых клиентов (ФИО, телефон, email, дата, примечание);
 хранение телефонов в нормализованном виде;
 поиск по:
+<img width="450" height="472" alt="image" src="https://github.com/user-attachments/assets/a86889e6-692e-406c-b1d0-23cd8718fefe" />
 
 ФИО
 
